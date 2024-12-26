@@ -25,11 +25,9 @@ form.addEventListener('submit', function (event) {
         return;
     }
 
-    // Display a success message
-    alert(`Thank you, ${name}! Your message has been sent. We will respond to ${email} shortly.`);
-
-    // Optionally, clear the form
-    form.reset();
+    // Notify the user and submit the form to Formspree
+    alert('Submitting your message...');
+    form.submit(); // Allow the form to submit through Formspree
 });
 
 // Helper function to validate email
