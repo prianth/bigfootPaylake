@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #0f571b;
-    color: white;
+    color: rgb(224, 200, 163);
     padding: 20px;
     text-align: center;
 }
@@ -26,7 +26,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: rgb(224, 200, 163);
     text-decoration: none;
     font-weight: bold;
 }
@@ -65,7 +65,7 @@ th {
 
 footer {
     background-color: #333;
-    color: white;
+    color: rgb(224, 200, 163);
     text-align: center;
     padding: 10px 0;
     position: relative;
@@ -75,7 +75,7 @@ footer {
 
 button {
     background-color: #0f571b;
-    color: white;
+    color: rgb(224, 200, 163);
     border: none;
     padding: 10px 15px;
     cursor: pointer;
